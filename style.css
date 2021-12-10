@@ -1,0 +1,153 @@
+#titulo {
+    color:brown
+
+}
+p.especial {
+    color:slateblue
+}
+p.texto  {
+    color:seagreen
+}
+div p{
+
+    color:mediumvioletred
+}
+div h2, div h3{
+    color:brown
+}
+
+*{
+    font-size:24px;
+    /* color:black; */
+}
+
+/* esto es un comentario 
+
+.color  {
+    color:#ff0000;
+}
+.color{
+
+    color:rgb(0,255,255);
+
+}
+*/
+
+.color{
+     /* border: 2px black dotted; */
+    /*
+    dotted
+    dashed
+    solid
+    doube
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    color:burlywood;
+    border-style: solid;
+    border-color:blueviolet;
+    border-radius: 5px;
+    border-width: 2rem;
+    border-right: 1cm;
+}
+#fondo{
+background-color:rgba(255, 0, 0);
+height: 200px;
+
+
+
+
+background: #f00 url(coffee.png) repeat-y center bottom /100px 100px;
+
+}
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text{
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow:2px 1px  3px red;
+    
+}
+a:link{
+
+    color:blueviolet;
+}
+a:visited{
+    color:gray;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:red;
+}
+ul{
+    background-color:cyan ;
+    list-style-type: circle; 
+    
+    /* list-style-position: inside; */
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    border: solid 1px #000;
+    padding: 5px;
+} 
+th{
+    background-color: blueviolet;
+    color:white;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+tr:hover{
+    background-color: #aaa ;
+    cursor: pointer;
+}
+span{
+     display: block; 
+     max-width: 300px;
+     background-color: grey;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.inline{
+    display: inline;
+}
+#position{
+    position: static;
+    left: 20px;
+}
+
+.left{
+    float: left;
+    width: 100px;
+}
+.container{
+    height: 200px;
+}
+.right{
+    float: right;
+}
+
+
+
+
